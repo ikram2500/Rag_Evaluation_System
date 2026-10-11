@@ -1,10 +1,10 @@
-import tools as tl
-from prompts import system_agent_prompt
+import RAG1.tools as tl
+from .prompts import system_agent_prompt
 from langchain_openai import ChatOpenAI
-from tools import collecting_info
+from .tools import collecting_info
 from langchain.agents import create_agent
 from langchain.messages import HumanMessage
-from objects import Answer
+from .objects import Answer
 
 llm = ChatOpenAI(model="gpt-4o", temperature=0)
 

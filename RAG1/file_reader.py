@@ -26,4 +26,4 @@ def extract_paragraphs(pdf_path: str | Path) -> List[str]:
 
     return paragraphs
 
-print(len(extract_paragraphs("../pdfs/Penguins_ACL.pdf")))
+print(len(extract_paragraphs("pdfs/Penguins_ACL.pdf")))
