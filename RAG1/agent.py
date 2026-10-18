@@ -31,4 +31,4 @@ def ask(question) -> dict:
         "context": structured_response.context
     } 
 
-print(ask("what is the diet of Penguins"))
+#print(ask("what is the diet of Penguins"))
