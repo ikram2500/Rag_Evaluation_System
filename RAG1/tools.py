@@ -11,7 +11,7 @@ def collecting_info(query: str) -> str:
     """
     global last_retrieved_context
 
-    docs = vectore_store.similarity_search(query, k=2) 
+    docs = vectore_store.similarity_search(query, k=3) 
 
     # save the Real retrieved chunks
     last_retrieved_context = [doc.page_content for doc in docs]
